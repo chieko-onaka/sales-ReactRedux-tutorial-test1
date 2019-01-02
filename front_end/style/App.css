@@ -1,16 +1,6 @@
-.signin {
-  border-top: 2px solid #F00;
-}
+@import 'signin.css';
 
-.signin label {
-  display: inline-block;
-  margin-right: 10px;
-  line-height: 30px;
-  border-radius: 3px;
-  width: 150px;
-  height: 30px;
-  border: 1px solid  #CCC;
-}
+
 
 .count_box {
   width: 200px;

@@ -4,7 +4,7 @@ import ReactDom from 'react-dom'
 import Add from './Add'
 import Reduce from './Reduce'
 import Header from './Header'
-import Style from '../App.css'
+//import Style from '../App.css'
 
 
 class Counter extends Component{

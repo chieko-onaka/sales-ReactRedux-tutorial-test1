@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background: url(https://www.pakutaso.com/shared/img/thumb/P1030285-Edit_TP_V.jpg) no-repeat;
+  background-size: contai;
+  position: relative;
+}
+
+.signin {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+}
+
+.signin span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 15px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    outline: none;
+}
+
+.signin input {
+  display: block;
+  margin: 0 20px 20px 0;
+  line-height: 30px;
+  border-radius: 3px;
+  width: calc(100% - 22px);
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid  #CCC;
+  background: rgb(255, 255, 255, 0.6);
+  vertical-align: middle;
+}
+
+.signin input:focus {
+  border: 1px solid #FFF;
+  background: rgb(255, 255, 255, 0.8);
+}
+
+.signin a {
+  display: block;
+  width: calc(100% - 4px);
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #000;
+  color: #FFF;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.signin a:hover {
+  margin-top: 37px;
+  background: rgba(0, 0, 0, 1)
+}
