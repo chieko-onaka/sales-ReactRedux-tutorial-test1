@@ -8,7 +8,9 @@ import Header from './Header'
 
 
 class Counter extends Component{
+
   render(){
+    
     return(
       <div>
         <Add /><Reduce /><Header />
