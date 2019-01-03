@@ -1,18 +1,21 @@
 import React, { Component } from 'react'
 import ReactDom from 'react-dom'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Add from './Add'
 import Reduce from './Reduce'
 import Header from './Header'
-//import Style from '../App.css'
 
 
 class Counter extends Component{
   render(){
     return(
-      <div>couter-hoge</div>
+      <div>
+        <Add /><Reduce /><Header />
+      </div>
     );
   }
 }
+
 
 export default Counter;
